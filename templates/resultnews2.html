@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>NEWS</title>
+<style>
+body {background-color: rgba(255, 255, 128, .5);}
+.white {background-color: white;}
+</style>
+</head>
+<body>
+    <h1 style="text-align: center;"><strong>🎧줄넘, 귀!</strong></h1>
+    <h3 style="text-align: center;">뉴스를 읽어드립니다😊</h3>
+    <p>&nbsp;</p>
+    <h3><strong>검색할 언론사 : {{ press_nm }}</strong></h3>
+    <p>&nbsp;</p>
+    <h3><strong>검색할 키워드 : {{ keyword }}</strong></h3>
+    <p>&nbsp;</p>
+    <h3><strong>수집할 뉴스 개수 : {{ ct }}</strong></h3>
+    <p>&nbsp;</p>
+    <h3>뉴스</h3>
+    <audio style="display: block; margin-left: auto; margin-right: auto;" controls autoplay>
+    <source src= {{ fn }} type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <h3><strong>요약 내용 : </strong></h3>
+    <p>상세한 기사 내용은 하단 링크를 참조하세요.</p>
+    <p>&nbsp;</p>
+    <p>{{ news_list[0].replace('\n','') }}</p>
+    <p>{{ news_list[1].replace('\n','') }}</p>    
+    <p>{{ news_list[2].replace('\n','') }}</p>
+    <p>{{ news_list[3].replace('\n','') }}</p>    
+    <p>{{ news_list[4].replace('\n','') }}</p>    
+    <p>{{ news_list[5].replace('\n','') }}</p>   
+    <p>{{ news_list[6].replace('\n','') }}</p>
+    <p>{{ news_list[7].replace('\n','') }}</p>    
+    <p>{{ news_list[8].replace('\n','') }}</p>    
+    <p>{{ news_list[9].replace('\n','') }}</p>  
+    
+</body>
+</html>

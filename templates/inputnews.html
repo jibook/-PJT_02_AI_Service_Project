@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>뉴스 줄넘귀</title>
+<style>
+body {background-color: lightblue;}
+.white {background-color: white;}
+</style>
+</head>
+
+<body>
+
+<h2>뉴스 줄넘귀</h2>
+
+<form action="/topic" method = 'post'>
+  <label for="keyword">검색할 키워드:</label><br>
+  <input type="text" id="keyword" name="keyword" value=" "><br>
+  <label for="ct">수집 뉴스의 수(숫자만 입력) :</label><br>
+  <input type="int" id="ct" name="ct" value="3"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>뉴스 줄넘귀</title>
+<style>
+body {background-color: lightblue;}
+.white {background-color: white;}
+</style>
+</head>
+
+<body>
+
+<h1 style="text-align: center;"><strong>🎧줄넘, 귀!</strong></h1>
+<p style="text-align: center;">요즘 많이 바쁘신가요?</p>
+<p style="text-align: center;">줄넘귀는 바쁜 삶을 살고 있는 여러분을 위해 이동 시 빠르게 뉴스를 접할 수 있도록,</p>
+<p style="text-align: center;">간략히 요약한 뉴스를 보이스를 통해 읽어주는 서비스를 제공합니다.😊</p>
+<p>&nbsp;</p>
+
+<form action="/topic" method = 'post'>
+  <h3><strong><label for="press_nm">검색할 언론사:</label><br></h3>
+  <p>현재 연합뉴스, MBC, 매일경제, SBS, KBS, JTBC 검색 기능을 지원합니다.</p>
+  <input type="text" id="press_nm" name="press_nm" value="KBS"><br>
+  <h3><strong><label for="keyword">검색할 키워드:</label><br></h3>
+  <input type="text" id="keyword" name="keyword" value="코로나"><br>
+  <h3><strong><label for="ct">수집 뉴스의 수(숫자만 입력) :</label><br></h3>
+  <input type="int" id="ct" name="ct" value="3"><br><br>
+  <input type="submit" value="줄여서 넘겨줘, 귀로!">
+</form> 
+
+<p>&nbsp;</p>
+<p><strong>주요 서비스<img src="https://html-online.com/editor/tiny4_9_11/plugins/emoticons/img/smiley-cool.gif" alt="cool" /></strong></p>
+<p>- 맞춤형 뉴스 선택 (언론사, 키워드 등)</p>
+<p>- 긴 문서를 요약하여 핵심 문장으로 제공</p>
+<p>- 고품질 음성 합성 기술로 65가지 음성과 한국어를 포함한 5개국 언어 제공</p>
+
+
+</body>
+</html>
