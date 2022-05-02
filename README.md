@@ -10,7 +10,7 @@
 
 ## 프로젝트 포트폴리오
 
-- [멀티캠퍼스 세미프로젝트2차 포트폴리오](https://github.com/jibook/PJT_02_AI_Service_Project/blob/master/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B82_2%EC%A1%B0_%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf)
+- [멀티캠퍼스 세미프로젝트2차 포트폴리오](https://github.com/jibook/PJT_02_AI_Service_Project/blob/master/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B82_2%EC%A1%B0_%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C02.pdf)
 
 ## 참고 사이트
 
